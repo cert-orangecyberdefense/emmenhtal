@@ -3,7 +3,7 @@ id: 47be590d-4a9e-4ab1-b9f6-a332709c2100
 status: stable
 description: |
     Detects suspicious execution of Powershell commands related to AES Encryption.
-    This could be an indicator of use of Powershell to decrypt additionnal payload as observed during Emmenthal infection.
+    This could be an indicator of use of Powershell to decrypt additionnal payload as observed during Emmenhtal infection.
 references: https://www.orangecyberdefense.com/global/blog/cert-news/emmenhtal-a-little-known-loader-distributing-commodity-infostealers-worldwide
 author: Orange Cyberdefense - Florian SIMONET
 date: 2024/08/09
