@@ -3,8 +3,9 @@ id: 89df209d-8b05-4fb6-8aa8-8295e4fa84d5
 status: stable
 description: |
     Detects "svchost.exe" spawning "rundll32.exe" with command arguments like "C:\windows\system32\davclnt.dll,DavSetCookie" and containing ".lnk".
-    This could be an indicator of use of WebDav to download and execute remote lnk files as observed during Emmenthal infection.
+    This could be an indicator of use of WebDav to download and execute remote lnk files as observed during Emmenhtal infection.
 references:
+    - https://www.orangecyberdefense.com/global/blog/cert-news/emmenhtal-a-little-known-loader-distributing-commodity-infostealers-worldwide
     - https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_rundll32_webdav_client_execution.yml
 author: Orange Cyberdefense - Florian SIMONET
 date: 2024/08/09
